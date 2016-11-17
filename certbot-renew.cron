@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/certbot --apache --quiet --noninteractive --renew-hook /usr/local/bin/certbot-newcerts.sh renew
+
